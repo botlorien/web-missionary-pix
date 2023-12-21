@@ -46,4 +46,13 @@ body::after {
     color: #333;
 }
 
-/* Add other styles as needed */
+#profile-image {
+    width: 100px; /* Set the width as needed */
+    height: 100px; /* Set the height as needed */
+    border-radius: 50%; /* This makes the image round */
+    object-fit: cover; /* This will cover the area without stretching the image */
+    margin: 10px 0; /* Optional: adds space above and below the image */
+    border: 2px solid #fff; /* Optional: adds a white border around the image */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow */
+}
+
