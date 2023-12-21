@@ -1,0 +1,49 @@
+body, html {
+    height: 100%; /* Make sure the html and body cover the full height of the viewport */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('../assets/ipb5.png') center center no-repeat;
+    background-size: 100% 100%; /* Scale the image to fit the screen */
+    z-index: -1; /* Place the background behind the content */
+    opacity: 0.7; /* Adjust for desired darkness */
+    top: 0;
+    left: 0;
+}
+
+body::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark transparent overlay */
+    z-index: -1; /* Ensure it's above the background image but below the content */
+    top: 0;
+    left: 0;
+}
+
+#contact-container {
+    position: relative; /* Ensure that the contact container is positioned correctly */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for legibility */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: 50px; /* Adjust as needed */
+    z-index: 1; /* Place the contact container above the overlays */
+}
+
+#contact-container h2 {
+    color: #333;
+}
+
+/* Add other styles as needed */
