@@ -11,7 +11,7 @@ const contacts = [
     { name: "Rev. Basilio", campo: "Quilombolas SP", contato: "+221 77 187 21 43", Pix: "56971192168" , img:"assets/basilio.png"},
     { name: "Rev. Bira kulina", campo: "Acre", contato: "+55 68 9959-2530", Pix: "068999592530" , img:"assets/bira.png"},
     { name: "Rev. Luiz Henrique", campo: "Ruanda", contato: "+55 13 99775-0512", Pix: "50.917.306/0001-85", img:"assets/luiz.png" },
-    { name: "Rev. Rev Fernando", campo: "Romênia", contato: "+40722802126", Pix: "23074084871", img:"assets/fernando.png" }
+    { name: "Rev. Fernando", campo: "Romênia", contato: "+40722802126", Pix: "23074084871", img:"assets/fernando.png" }
 ];
 
 function displayRandomContact() {
