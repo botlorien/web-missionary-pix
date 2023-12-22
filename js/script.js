@@ -4,14 +4,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Hardcoded list of contacts
 const contacts = [
-    { name: "Rev. Rubens", campo: "Argentina", contato: "+55 65 9906-5900", Pix: "57220840187", img:"../assets/rubens.png" },
-    { name: "Rev. Terena", campo: "Campo Grande", contato: "+55 67 8190-2539", Pix: "hterena@gmail.com" , img:"../assets/terena.png"},
-    { name: "Rev. Jorge", campo: "Libano", contato: "+961 81 797 073", Pix: "64999102304" , img:"../assets/jorge.png"},
-    { name: "Rev. Marcos", campo: "Nova Zelândia", contato: "+64 22 103 8126", Pix: "621309781-34" , img:"../assets/marcos.png"},
-    { name: "Rev. Basilio", campo: "Quilombolas SP", contato: "+221 77 187 21 43", Pix: "56971192168" , img:"../assets/basilio.png"},
-    { name: "Rev. Bira kulina", campo: "Acre", contato: "+55 68 9959-2530", Pix: "068999592530" , img:"../assets/bira.png"},
-    { name: "Rev. Luiz Henrique", campo: "Ruanda", contato: "+55 13 99775-0512", Pix: "50.917.306/0001-85", img:"../assets/luiz.png" },
-    { name: "Rev. Rev Fernando", campo: "Romênia", contato: "+40722802126", Pix: "23074084871", img:"../assets/fernando.png" }
+    { name: "Rev. Rubens", campo: "Argentina", contato: "+55 65 9906-5900", Pix: "57220840187", img:"assets/rubens.png" },
+    { name: "Rev. Terena", campo: "Campo Grande", contato: "+55 67 8190-2539", Pix: "hterena@gmail.com" , img:"assets/terena.png"},
+    { name: "Rev. Jorge", campo: "Libano", contato: "+961 81 797 073", Pix: "64999102304" , img:"assets/jorge.png"},
+    { name: "Rev. Marcos", campo: "Nova Zelândia", contato: "+64 22 103 8126", Pix: "621309781-34" , img:"assets/marcos.png"},
+    { name: "Rev. Basilio", campo: "Quilombolas SP", contato: "+221 77 187 21 43", Pix: "56971192168" , img:"assets/basilio.png"},
+    { name: "Rev. Bira kulina", campo: "Acre", contato: "+55 68 9959-2530", Pix: "068999592530" , img:"assets/bira.png"},
+    { name: "Rev. Luiz Henrique", campo: "Ruanda", contato: "+55 13 99775-0512", Pix: "50.917.306/0001-85", img:"assets/luiz.png" },
+    { name: "Rev. Rev Fernando", campo: "Romênia", contato: "+40722802126", Pix: "23074084871", img:"assets/fernando.png" }
 ];
 
 function displayRandomContact() {
